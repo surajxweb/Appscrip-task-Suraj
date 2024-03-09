@@ -48,7 +48,7 @@ The easiest way to deploy your Next.js app is to use the Vercel Platform from th
 Check out our Next.js deployment documentation for more details.
 
 Live Demo: AppScrip Recruitment Project
-Learn More
+[Learn More](https://appscrip-task-suraj.vercel.app/)
 
 To delve deeper into Next.js, take a look at the following resources:
 
