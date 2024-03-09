@@ -1,0 +1,89 @@
+.container {
+  padding: 40px;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: space-around;
+  grid-gap: 10px;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+}
+
+.moreOptions {
+  font-weight: bold;
+  display: flex;
+  gap: 40px;
+}
+
+.hide {
+  cursor: pointer;
+}
+
+.filterContainer {
+  width: 250px;
+  background-color: #fff;
+}
+
+.filter {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+.filterMain {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.filterHeading {
+  font-size: 18px;
+}
+
+.filterCheckox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.checkboxes {
+  padding: 15px 0;
+}
+
+@media (max-width: 890px) {
+  .container {
+    padding: 10px;
+  }
+
+  .productList {
+    grid-template-columns: repeat(auto-fill, 150px);
+  }
+
+  .options {
+    padding: 20px 10px;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .filterContainer {
+    position: absolute;
+    padding: 10px;
+  }
+}

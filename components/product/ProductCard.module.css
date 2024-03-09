@@ -1,0 +1,38 @@
+.container {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.des {
+  color: #888792;
+  font-size: 14px;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 890px) {
+  .container {
+    width: 150px;
+  }
+
+  .container img {
+    height: 200px;
+  }
+}
